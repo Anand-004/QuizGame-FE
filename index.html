@@ -8,10 +8,25 @@
 </head>
 <body>
     <div class="container">
-        <div class="window active" id="start-quiz">
+        <div class="window " id="start-quiz">
             <h1>Quiz Game</h1>
             <p>Test your knowledge with this Quiz !</p>
             <button id="start-btn">Start Quiz</button>
+        </div>
+        <div class="window active " id="quiz-quiz">
+            <div class="quiz-header">
+                <div class="quiz-info">
+                    <p>Question <span id="currentQuestion">1</span> of <span id="totalQuestion">5</span></p>
+                    <p>Score : <span id="score">0</span></p>
+                </div>
+                <div id="question" class="question"><h2>Questions ?</h2></div>
+            </div>
+            <div class="quiz-questions" id="quiz-questions">
+
+            </div>
+            <div class="progressbar" id="progressbar">
+
+            </div>
         </div>
     </div>
     

@@ -15,12 +15,17 @@
 }
 
 .window{
+    display: none;
     background-color:white;
-    padding: 2rem;
+    padding: 1.5rem;
     min-width: 600px;
     border-radius: 1rem;
     text-align: center;
     box-shadow: 0 10px 40px  rgba(0, 0, 0, 0.1);
+}
+ 
+.window.active{
+    display: block;
 }
 
 .window h1{
@@ -51,4 +56,13 @@
     color: black;
     font-size: 1.1rem;
     margin: 20px 0;
+}
+
+.quiz-header{
+    text-align: center;
+}
+.quiz-info{
+    padding: 0 1rem ;
+    display: flex;
+    justify-content: space-between;
 }
