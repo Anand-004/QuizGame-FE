@@ -34,7 +34,7 @@
     font-size: 2.5rem;
 }
 
-.window button{
+button{
     color:white;
     background-color: #ffafcc;
     border: none;
@@ -47,7 +47,7 @@
 
 }
 
-.window button:hover{
+button:hover{
     background-color: #cdb4db;
     color: black;
 }
@@ -65,4 +65,13 @@
     padding: 0 1rem ;
     display: flex;
     justify-content: space-between;
+}
+
+.result-box{
+    background-color:#ffc8dd;
+    margin: 3rem;
+    padding: 2rem;
+    border-radius: 10px;
+    border: 1px solid  #ffafcc;
+    color: #bb0e4d;
 }
