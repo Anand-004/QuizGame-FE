@@ -8,35 +8,34 @@
 </head>
 <body>
     <div class="container">
-        <div class="window " id="start-quiz">
+        <div class="window active" id="start-quiz">
             <h1>Quiz Game</h1>
             <p>Test your knowledge with this Quiz !</p>
             <button id="start-btn">Start Quiz</button>
         </div>
-        <div class="window" id="quiz-quiz">
+        <div class="window " id="quiz-quiz">
             <div class="quiz-header">
                 <div class="quiz-info">
                     <p>Question <span id="currentQuestion">1</span> of <span id="totalQuestion">5</span></p>
                     <p>Score : <span id="score">0</span></p>
                 </div>
-                <div id="question" class="question"><h2>Questions ?</h2></div>
+                <div id="question" class="question">Questions ?</div>
             </div>
             <div class="quiz-questions" id="quiz-questions">
-
             </div>
             <div class="progressbar" id="progressbar">
-
+                <div id="progress"></div>
             </div>
         </div>
-        <div class="window active" id="quiz-result">
+        <div class="window " id="quiz-result">
           <h1>Quiz Result !</h1>
           <div class="result-box">
-            <p>You Scored <span id="score">5</span> out of <span id="totalQuestion">5</span></p>
+            <p>You Scored <span id="final-score">5</span> out of <span id="max-score">5</span></p>
             <h2 id="result-msg">Good Score</h2>
           </div>  
           <button id="restart">Restart Quiz</button>
         </div>
     </div>
-    
+    <script src="index.js"></script>
 </body>
 </html>
